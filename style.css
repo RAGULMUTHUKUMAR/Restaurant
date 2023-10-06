@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+
+}
+ul,li{
+    padding-right: 10px;
+    display: inline-block;
+}
+.top{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+.box1{
+    background-color: white;
+    width: 80%;
+    margin-left: 170px;
+    margin-top: 20px;
+    padding: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.img1{
+    border: 3px solid rgb(0, 0, 0);
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    margin-left: 20px;
+    display: inline-block;
+    overflow: hidden;
+   
+    
+   
+}
+.cnt{
+    text-align: center;
+   
+}
+.but{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+img:hover{
+    transform: scale(1.4);
+    transition: 500ms all ;
+    
+}
+
+.but:hover{
+    background: red;
+}
+.img1:hover{
+    border: 3px solid red;
+    cursor: pointer;
+}
+.no{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.name,.age,.email{
+    text-align: center;
+    padding: 5px;
+}
+.age{
+    margin-left: 19px;
+}
+.send{
+    text-align: center;
+    width: 25%;
+    margin-left: 750px;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: rgb(245, 0, 73) ;
+    color: black;
+}
